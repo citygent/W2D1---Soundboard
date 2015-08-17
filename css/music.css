@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 400%;
+  text-align: center;
+}
+
+p a {
+  text-decoration: none;
+}
+
+button {
+  text-align: center;
+}
+#brands {
+  margin: 0 auto;
+}
+#hope {
+  background-color: green; 
+}
+#king {
+  background-color: HotPink;
+}
+#shimano {
+  background-color: blue;
+}
+#campagnolo {
+  background-color: red;
+}
+#white {
+  background-color: Chocolate;
+}
+#powertap {
+  background-color: orange;
+}
+
