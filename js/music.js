@@ -11,17 +11,14 @@ soundManager.setup({
 });
 
 function setupListeners() {
-  // playButton = document.getElementById('playbutton');
-  // playButton.addEventListener('click', sound1);
-
   hope = document.getElementById('hope');
   hope.addEventListener('click', function (){playSound('hope');});
   king = document.getElementById('king');
   king.addEventListener('click', function (){playSound('king');});
   shimano = document.getElementById('shimano');
   shimano.addEventListener('click', function (){playSound('shimano');});
-  campagnolo = document.getElementById('campagnolo');
-  campagnolo.addEventListener('click', function (){playSound('campagnolo');});
+  campag = document.getElementById('campag');
+  campag.addEventListener('click', function (){playSound('campag');});
   white = document.getElementById('white');
   white.addEventListener('click', function (){playSound('white');});
   power = document.getElementById('power');
@@ -35,11 +32,3 @@ function playSound(sound){
   });
   mySound.play();
 }
-
-// function sound1(){
-//     var mySound = soundManager.createSound({
-//       id: 'drumloop',
-//       url: './sounds/drumloop.mp3'
-//     });
-//     mySound.play();
-//   }
